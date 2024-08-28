@@ -18,17 +18,17 @@ let score = JSON.parse(localStorage.getItem('Score')) ||
                 {
                     if(move === 'rock')
                     {
-                        result = 'it\'s a tie';
+                        result = 'it\'s a tie !!';
                         score.ties += 1;
                     }
                     else if(move === 'paper')
                     {
-                        result = 'you lose';
+                        result = 'you lose !';
                         score.loses+=1;
                     }
                     else if(move === 'scissor')
                     {
-                        result = 'you won';
+                        result = 'you won !!!';
                         score.wins+=1;
                     }
                 }
@@ -37,17 +37,17 @@ let score = JSON.parse(localStorage.getItem('Score')) ||
                 {
                     if(move === 'rock')
                     {
-                        result = 'you won';
+                        result = 'you won !!!';
                         score.wins+=1;
                     }
                     else if(move === 'paper')
                     {
-                        result = 'it\'s a tie';
+                        result = 'it\'s a tie !!';
                         score.ties += 1;
                     }
                     else if(move === 'scissor')
                     {
-                        result = 'you lose';
+                        result = 'you lose !';
                         score.loses+=1;
                     }
                 }
@@ -56,17 +56,17 @@ let score = JSON.parse(localStorage.getItem('Score')) ||
                 {
                     if(move === 'rock')
                     {
-                        result = 'you lose';
+                        result = 'you lose !';
                         score.loses+=1;
                     }
                     else if(move === 'paper')
                     {
-                        result = 'you won';
+                        result = 'you won !!!';
                         score.wins+=1;
                     }
                     else if(move === 'scissor')
                     {
-                        result = 'it\'s a tie';
+                        result = 'it\'s a tie !!';
                         score.ties += 1;
                     }
                 }

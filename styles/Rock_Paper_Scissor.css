@@ -9,6 +9,14 @@ body
 {
     font-size: 30px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.game-button
+{
+    display: flex;
+    justify-content: center;
 }
 
 .rock-img,
@@ -34,11 +42,28 @@ body
     font-size: 25px;
     font-weight: bold;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Choice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Score
 {
     margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.new_game
+{
+    display: flex;
+    justify-content: center;
 }
 
 .new-button

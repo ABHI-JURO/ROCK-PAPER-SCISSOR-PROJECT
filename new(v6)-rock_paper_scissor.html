@@ -11,6 +11,9 @@
 
     <body>
         <P class="head1">ROCK PAPER SCISSOR</P>
+
+        <div class="game-button">
+
         <button class="moves-button" onclick="
             gameplay('rock');
             ">
@@ -29,14 +32,17 @@
         <img class="scissor-img" src="images/scissor-emoji.png">
         </button>
 
+        </div>
+
         <p class="js-outcome results"></p>
 
-        <p class="js-comp_user_choices">
+        <p class="js-comp_user_choices Choice">
             
         </p>
 
         <p class="js-Score Score"></p>
-
+        
+        <div class="new_game">
         <button class="new-button" onclick="
 
            score.wins = 0;
@@ -50,6 +56,7 @@
         ">
             NEW GAME
         </button>
+        </div>
 
         <script src="scripts/rock_paper_sissor.js">
         </script>
