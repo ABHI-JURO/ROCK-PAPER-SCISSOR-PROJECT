@@ -83,6 +83,13 @@ let score = JSON.parse(localStorage.getItem('Score')) ||
             computer`;
 
             }
+
+            function new_game()
+            {
+                document.querySelector('.js-outcome').innerHTML = '';
+
+                document.querySelector('.js-comp_user_choices').innerHTML = '';
+            }
             
             function updateScore()
             {
